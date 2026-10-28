@@ -1,0 +1,50 @@
+# Local research, device logs and video-production material
+/evidence/
+/docs/animation/
+/docs/EVIDENZ.md
+/docs/T02-PROTOKOLL.md
+/docs/FLUTTER-SDK.md
+/docs/FOTOMODUS.md
+/docs/DRUCKGESCHWINDIGKEIT.md
+/tools/document/
+/scripts/annotate_disassembly.py
+/scripts/verify_evidence.py
+
+# Flutter and native build output
+**/.dart_tool/
+**/build/
+**/coverage/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/Pods/
+**/.symlinks/
+**/ephemeral/
+**/DerivedData/
+**/xcuserdata/
+**/.gradle/
+**/.cxx/
+**/local.properties
+**/Local.xcconfig
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.p8
+*.p12
+*.pem
+*.key
+*.mobileprovision
+*.keystore
+*.jks
+key.properties
+
+# Editors and temporary files
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.log
+*.swp
+__pycache__/
+*.pyc
